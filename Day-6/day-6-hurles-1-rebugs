@@ -1,0 +1,20 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+    
+def reach_goal(goal):
+    for x in range(0, goal):
+        move()
+        turn_left()
+        move()
+        turn_right()
+        move()
+        turn_right()
+        move()
+        turn_left()
+
+        
+        
+reach_goal(6)
